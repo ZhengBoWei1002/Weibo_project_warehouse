@@ -18,6 +18,11 @@
 ```
 workflow_engine/
 ├── core/               # 核心模块
+│   ├── workflow.py     # Workflow 类
+│   ├── builder.py      # WorkflowBuilder 类
+│   ├── runner.py       # WorkflowRunner 类
+│   ├── router.py       # Router 类
+│   └── edge.py         # Edge 类
 ├── nodes/              # 节点模块
 │   └── base.py         # BaseNode 抽象基类
 ├── models/             # 数据模型
