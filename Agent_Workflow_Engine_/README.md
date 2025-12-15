@@ -26,10 +26,14 @@ workflow_engine/
 ├── nodes/              # 节点模块
 │   └── base.py         # BaseNode 抽象基类
 ├── models/             # 数据模型
+│   ├── state.py        # 状态枚举
+│   ├── context.py      # Context 类
+│   └── result.py       # Result 类
 ├── exceptions/         # 自定义异常
 │   └── base.py         # 基础异常类
 ├── utils/              # 工具函数
 ├── examples/           # 使用示例
+│   └── simple.py       # 简单示例
 └── tests/              # 单元测试
 ```
 
