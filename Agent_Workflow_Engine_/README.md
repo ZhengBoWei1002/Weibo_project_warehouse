@@ -28,7 +28,11 @@ workflow_engine/
 ├── models/             # 数据模型
 │   ├── state.py        # 状态枚举
 │   ├── context.py      # Context 类
-│   └── result.py       # Result 类
+│   └── action.py       # Action 类
+│   ├── state.py        # 状态枚举
+│   ├── checkpoint.py   # Checkpoint 类
+│   ├── result.py       # Result 类
+│   ├── retry.py        # Retry 类
 ├── exceptions/         # 自定义异常
 │   └── base.py         # 基础异常类
 ├── utils/              # 工具函数
@@ -36,6 +40,10 @@ workflow_engine/
 │   └── simple.py       # 简单示例
 └── tests/              # 单元测试
 ```
+
+## 文档
+
+- [ARCHITECTURE.md](./ARCHITECTURE.md) - 详细的架构设计
 
 ## 许可证
 
