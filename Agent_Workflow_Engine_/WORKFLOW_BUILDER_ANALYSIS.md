@@ -36,7 +36,7 @@ workflow = (
 )
 ```
 
-**优势**：Builder 代码更自然地描述了 Workflow 的构建过程，读起来像在说故事。
+**优势**：Builder 代码更自然地描述了 Workflow 的构建过程，读起来像在说故事
 
 ---
 

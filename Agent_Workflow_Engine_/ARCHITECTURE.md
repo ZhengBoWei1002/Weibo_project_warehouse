@@ -20,7 +20,7 @@ Workflow Engine
 ├── Context (数据层)
 │   ├── WorkflowContext
 │   └── NodeContext
-└── Models (数据模型)
+└── Models ( 数据模型)
     ├── State
     ├── Result
     └── Configuration
@@ -863,7 +863,7 @@ stateDiagram-v2
 - 便于调试：状态变化有记录，问题容易定位
 ```
 
-### 10.4 为什么这样设计 Node？
+### 10.4 为什么这样设计 Node
 
 #### 模板方法模式
 ```

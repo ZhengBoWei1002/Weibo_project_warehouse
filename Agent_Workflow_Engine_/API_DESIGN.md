@@ -37,7 +37,7 @@ class NodeStatus(Enum):
     COMPLETED = "completed"   # 成功完成
     FAILED = "failed"         # 执行失败
     RETRYING = "retrying"     # 重试中
-    SKIPPED = "skipped"       # 已跳过
+    SKIPPED = "skipped"       #  已跳过
 ```
 
 ### 生命周期
